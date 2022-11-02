@@ -1,30 +1,22 @@
-# GroupAppAssignment
-
-Unit 8: Group Milestone - README Example
-===
-
-:::info
-**Below is an example** of what your **Group Project README** should include and how it should be structured for the **Unit 8 Group Milestone Submission**.
-:::
-
-# TUNIN
+# APP-E-TIZER
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
 ## Overview
 ### Description
-Tracks what music an individual listens to, and pairs them with others based on that music. Could be potentially used as a dating app, or just meeting new friends with similar music tastes.
+App-e-tizer is a one click solution to help out in finding a place to eat. Using Google maps api, this app will scan the nearby area, choosing a random place restaurant to display for the user to enjoy a meal. 
 
 ### App Evaluation
-- **Category:** Social Networking / Music
-- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
-- **Story:** Analyzes users music choices, and connects them to other users with similar choices. The user can then decide to message this person and befriend them if wanted.
-- **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be organized into age groups.
-- **Habit:** This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they're looking for.
-- **Scope:** First we would start with pairing people based on music taste, then perhaps this could evolve into a music sharing application as well to broaden its usage. Large potential for use with spotify, apple music, or other music streaming applications.
+- **Category:** Restaurant and Dining
+- **Mobile:** This app is primarily a mobile app, and would possible see an extention to Apple Watch and Android platforms or other mobile platforms. 
+- **Story:** Displays a button for the user to click, and will display a resturant in the near by area to go to. 
+- **Market:** Anyone can use this app. Preferebly a person old enough to navigate to and from a public restaurant found on google maps. 
+- **Habit:** This app can be used any time and any day. Can make for a perfect ice breaker, or if someone doesnt know where to eat, app-e-tizer will help you fine dine.
+- **Scope:** First, the app will consist of a single button to pick a place to eat, and display it on the screen. Later we would like to add in parameters such as price range, type of food, delivery options, and place distance. 
 
 ## Product Spec
 ### 1. User Stories (Required and Optional)
