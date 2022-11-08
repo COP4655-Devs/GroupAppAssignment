@@ -53,7 +53,7 @@ Optional:
 * Main Search Page -> User Profile
 
 ## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+<img src="https://github.com/COP4655-Devs/GroupAppAssignment/blob/main/Wireframe.png" width=800><br>
 
 ## Schema 
 [This section will be completed in Unit 9]
