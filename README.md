@@ -48,7 +48,7 @@ Optional:
 
 
 **Flow Navigation** (Screen to Screen)
-* Main Search Page -> Restaurant Details (jumps back to main page)
+* Home Sreen (with generate search) -> Restaurant Details (navigates to main page)
 * Optional:
 * Main Search Page -> User Profile
 
@@ -56,9 +56,10 @@ Optional:
 <img src="https://github.com/COP4655-Devs/GroupAppAssignment/blob/main/Wireframe.png" width=600><br>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+Property | Type | Description
+--- | --- | ---
+Seconds | 301 | 283
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
