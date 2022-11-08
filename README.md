@@ -59,7 +59,18 @@ Optional:
 ### Models
 Property | Type | Description
 --- | --- | ---
-Seconds | 301 | 283
+photo | File | image from google maps
+formatted_addresss | String | address of business
+name | String | name of business
+formatted_phone_number | String | phone # of business
+website | String | website of business
+opening_hours | DateTime | time business opens
+opening_now | DateTime | if business open now
+price_level | String | how expensive the business is
+rating | String | what is the rating of business
+reviews | String | the reviews of business
+user_ratings_total | Number | how many reviews of business
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
