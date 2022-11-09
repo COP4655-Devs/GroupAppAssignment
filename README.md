@@ -12,10 +12,10 @@ App-e-tizer is a one click solution to help out in finding a place to eat. Using
 
 ### App Evaluation
 - **Category:** Restaurant and Dining
-- **Mobile:** This app is primarily a mobile app, and would possible see an extention to Apple Watch and Android platforms or other mobile platforms. 
-- **Story:** Displays a button for the user to click, and will display a resturant in the near by area to go to. 
-- **Market:** Anyone can use this app. Preferebly a person old enough to navigate to and from a public restaurant found on google maps. 
-- **Habit:** This app can be used any time and any day. Can make for a perfect ice breaker, or if someone doesnt know where to eat, app-e-tizer will help you fine dine.
+- **Mobile:** This app is primarily a mobile app, and would possible see an extension to Apple Watch and Android platforms or other mobile platforms. 
+- **Story:** Displays a button for the user to click, and will display a restaurant in the nearby area to go to. 
+- **Market:** Anyone can use this app. Preferably a person old enough to navigate to and from a public restaurant found on google maps. 
+- **Habit:** This app can be used any time and any day. Can make for a perfect ice breaker, or if someone doesn't know where to eat, app-e-tizer will help you fine dine.
 - **Scope:** First, the app will consist of a single button to pick a place to eat, and display it on the screen. Later we would like to add in parameters such as price range, type of food, delivery options, and place distance. 
 
 ## Product Spec
@@ -24,9 +24,9 @@ App-e-tizer is a one click solution to help out in finding a place to eat. Using
 **Required Must-have Stories**
 
 * User sees a "Search" button
-* After searching, user sees a restaurant.
+* After searching, the user sees a restaurant.
 * Restaurant will show details
-* User can alsways see the search button to generate another search request
+* User can always see the search button to generate another search request
 
 **Optional Nice-to-have Stories**
 
@@ -48,7 +48,7 @@ Optional:
 
 
 **Flow Navigation** (Screen to Screen)
-* Home Sreen (with generate search) -> Restaurant Details (navigates to main page)
+* Home Screen (with generate search) -> Restaurant Details (navigates to main page)
 * Optional:
 * Main Search Page -> User Profile
 
