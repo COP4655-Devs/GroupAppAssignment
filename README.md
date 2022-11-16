@@ -23,6 +23,7 @@ App-e-tizer is a one click solution to help out in finding a place to eat. Using
 
 **Required Must-have Stories**
 * [x] Created icon and logo in start up page
+* [x] Configure Google Places API
 * [ ] User sees a "Search" button
 * [ ] After searching, user sees a restaurant.
 * [ ] Restaurant will show details
