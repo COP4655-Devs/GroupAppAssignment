@@ -22,17 +22,17 @@ App-e-tizer is a one click solution to help out in finding a place to eat. Using
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* User sees a "Search" button
-* After searching, user sees a restaurant.
-* Restaurant will show details
-* User can alsways see the search button to generate another search request
+* [x] Created icon and logo in start up page
+* [] User sees a "Search" button
+* [] After searching, user sees a restaurant.
+* [] Restaurant will show details
+* [] User can alsways see the search button to generate another search request
 
 **Optional Nice-to-have Stories**
 
-* Extra search parameters
-* A user account page for personalized results and a history log
-* Ability to share newly discovered place
+* [] Extra search parameters
+* [] A user account page for personalized results and a history log
+* [] Ability to share newly discovered place
 
 ### 2. Screen Archetypes
 
