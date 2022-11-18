@@ -10,7 +10,7 @@
 ### Description
 App-e-tizer is a one click solution to help out in finding a place to eat. Using Google maps api, this app will scan the nearby area, choosing a random restaurant to display to the user. 
 
-<img src="https://imgur.com/8CqoAPV" width=200><br>
+<img src="https://i.imgur.com/8CqoAPV.gif" width=200><br>
 
 
 ### App Evaluation
