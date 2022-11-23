@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D87868F6292C6A1E00C172C8 /* App_e_tizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87868F5292C6A1E00C172C8 /* App_e_tizerApp.swift */; };
+		D87868F8292C6A1E00C172C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87868F7292C6A1E00C172C8 /* ContentView.swift */; };
+		D87868FA292C6A1F00C172C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87868F9292C6A1F00C172C8 /* Assets.xcassets */; };
+		D87868FD292C6A1F00C172C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87868FC292C6A1F00C172C8 /* Preview Assets.xcassets */; };
+		D8786905292C6B0200C172C8 /* Amadeus in Frameworks */ = {isa = PBXBuildFile; productRef = D8786904292C6B0200C172C8 /* Amadeus */; };
+		D8786909292C6BBC00C172C8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8786908292C6BBC00C172C8 /* HomeView.swift */; };
+		D878690B292C6BD900C172C8 /* LocationAccessErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878690A292C6BD900C172C8 /* LocationAccessErrorView.swift */; };
+		D878690D292C6BEF00C172C8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878690C292C6BEF00C172C8 /* HomeViewModel.swift */; };
+		D8FA2445292C79460081D7DF /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA2444292C79460081D7DF /* PointOfInterest.swift */; };
+		D8FA2448292C79AC0081D7DF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA2447292C79AC0081D7DF /* ListView.swift */; };
+		D8FA244A292C79B90081D7DF /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA2449292C79B90081D7DF /* ListCell.swift */; };
+		D8FA244C292C7AEE0081D7DF /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA244B292C7AEE0081D7DF /* DisplayMode.swift */; };
+		D8FA244F292C7B910081D7DF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA244E292C7B910081D7DF /* MapView.swift */; };
+		D8FA2451292C7B9D0081D7DF /* MapViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA2450292C7B9D0081D7DF /* MapViewWrapper.swift */; };
+		D8FA2455292C7D670081D7DF /* PointOfInterestAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA2454292C7D670081D7DF /* PointOfInterestAnnotation.swift */; };
+		D8FA2458292C7F790081D7DF /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA2457292C7F790081D7DF /* FiltersView.swift */; };
+		D8FA245A292C7F870081D7DF /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FA2459292C7F870081D7DF /* CategoriesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D87868F2292C6A1E00C172C8 /* App-e-tizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-e-tizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87868F5292C6A1E00C172C8 /* App_e_tizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_e_tizerApp.swift; sourceTree = "<group>"; };
+		D87868F7292C6A1E00C172C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D87868F9292C6A1F00C172C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D87868FC292C6A1F00C172C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8786908292C6BBC00C172C8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D878690A292C6BD900C172C8 /* LocationAccessErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAccessErrorView.swift; sourceTree = "<group>"; };
+		D878690C292C6BEF00C172C8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D8FA2444292C79460081D7DF /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		D8FA2447292C79AC0081D7DF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D8FA2449292C79B90081D7DF /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		D8FA244B292C7AEE0081D7DF /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
+		D8FA244E292C7B910081D7DF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D8FA2450292C7B9D0081D7DF /* MapViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewWrapper.swift; sourceTree = "<group>"; };
+		D8FA2454292C7D670081D7DF /* PointOfInterestAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterestAnnotation.swift; sourceTree = "<group>"; };
+		D8FA2457292C7F790081D7DF /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
+		D8FA2459292C7F870081D7DF /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D87868EF292C6A1E00C172C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8786905292C6B0200C172C8 /* Amadeus in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D87868E9292C6A1E00C172C8 = {
+			isa = PBXGroup;
+			children = (
+				D87868F4292C6A1E00C172C8 /* App-e-tizer */,
+				D87868F3292C6A1E00C172C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D87868F3292C6A1E00C172C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87868F2292C6A1E00C172C8 /* App-e-tizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87868F4292C6A1E00C172C8 /* App-e-tizer */ = {
+			isa = PBXGroup;
+			children = (
+				D8FA2456292C7F670081D7DF /* Filters */,
+				D8786907292C6B9500C172C8 /* UI */,
+				D87868F5292C6A1E00C172C8 /* App_e_tizerApp.swift */,
+				D87868F7292C6A1E00C172C8 /* ContentView.swift */,
+				D87868F9292C6A1F00C172C8 /* Assets.xcassets */,
+				D87868FB292C6A1F00C172C8 /* Preview Content */,
+			);
+			path = "App-e-tizer";
+			sourceTree = "<group>";
+		};
+		D87868FB292C6A1F00C172C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D87868FC292C6A1F00C172C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8786907292C6B9500C172C8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D8FA244D292C7B740081D7DF /* Map */,
+				D8FA2446292C79910081D7DF /* List */,
+				D8FA2443292C79300081D7DF /* Model */,
+				D8786908292C6BBC00C172C8 /* HomeView.swift */,
+				D878690A292C6BD900C172C8 /* LocationAccessErrorView.swift */,
+				D878690C292C6BEF00C172C8 /* HomeViewModel.swift */,
+				D8FA244B292C7AEE0081D7DF /* DisplayMode.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D8FA2443292C79300081D7DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8FA2444292C79460081D7DF /* PointOfInterest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8FA2446292C79910081D7DF /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D8FA2447292C79AC0081D7DF /* ListView.swift */,
+				D8FA2449292C79B90081D7DF /* ListCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		D8FA244D292C7B740081D7DF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D8FA244E292C7B910081D7DF /* MapView.swift */,
+				D8FA2450292C7B9D0081D7DF /* MapViewWrapper.swift */,
+				D8FA2454292C7D670081D7DF /* PointOfInterestAnnotation.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		D8FA2456292C7F670081D7DF /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				D8FA2457292C7F790081D7DF /* FiltersView.swift */,
+				D8FA2459292C7F870081D7DF /* CategoriesView.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D87868F1292C6A1E00C172C8 /* App-e-tizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8786900292C6A1F00C172C8 /* Build configuration list for PBXNativeTarget "App-e-tizer" */;
+			buildPhases = (
+				D87868EE292C6A1E00C172C8 /* Sources */,
+				D87868EF292C6A1E00C172C8 /* Frameworks */,
+				D87868F0292C6A1E00C172C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App-e-tizer";
+			packageProductDependencies = (
+				D8786904292C6B0200C172C8 /* Amadeus */,
+			);
+			productName = "App-e-tizer";
+			productReference = D87868F2292C6A1E00C172C8 /* App-e-tizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D87868EA292C6A1E00C172C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D87868F1292C6A1E00C172C8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D87868ED292C6A1E00C172C8 /* Build configuration list for PBXProject "App-e-tizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D87868E9292C6A1E00C172C8;
+			packageReferences = (
+				D8786903292C6B0200C172C8 /* XCRemoteSwiftPackageReference "amadeus-ios" */,
+			);
+			productRefGroup = D87868F3292C6A1E00C172C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D87868F1292C6A1E00C172C8 /* App-e-tizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D87868F0292C6A1E00C172C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87868FD292C6A1F00C172C8 /* Preview Assets.xcassets in Resources */,
+				D87868FA292C6A1F00C172C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D87868EE292C6A1E00C172C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FA2458292C7F790081D7DF /* FiltersView.swift in Sources */,
+				D8FA244C292C7AEE0081D7DF /* DisplayMode.swift in Sources */,
+				D878690B292C6BD900C172C8 /* LocationAccessErrorView.swift in Sources */,
+				D8FA2455292C7D670081D7DF /* PointOfInterestAnnotation.swift in Sources */,
+				D8FA2445292C79460081D7DF /* PointOfInterest.swift in Sources */,
+				D8786909292C6BBC00C172C8 /* HomeView.swift in Sources */,
+				D8FA2448292C79AC0081D7DF /* ListView.swift in Sources */,
+				D87868F8292C6A1E00C172C8 /* ContentView.swift in Sources */,
+				D8FA245A292C7F870081D7DF /* CategoriesView.swift in Sources */,
+				D8FA244A292C79B90081D7DF /* ListCell.swift in Sources */,
+				D8FA244F292C7B910081D7DF /* MapView.swift in Sources */,
+				D8FA2451292C7B9D0081D7DF /* MapViewWrapper.swift in Sources */,
+				D878690D292C6BEF00C172C8 /* HomeViewModel.swift in Sources */,
+				D87868F6292C6A1E00C172C8 /* App_e_tizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D87868FE292C6A1F00C172C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D87868FF292C6A1F00C172C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8786901292C6A1F00C172C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App-e-tizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 2M5H6T53K2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App-e-tizer/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App-e-tizer needs your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App-e-tizer needs your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "djc.App-e-tizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8786902292C6A1F00C172C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App-e-tizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 2M5H6T53K2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App-e-tizer/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App-e-tizer needs your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App-e-tizer needs your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "djc.App-e-tizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D87868ED292C6A1E00C172C8 /* Build configuration list for PBXProject "App-e-tizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87868FE292C6A1F00C172C8 /* Debug */,
+				D87868FF292C6A1F00C172C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8786900292C6A1F00C172C8 /* Build configuration list for PBXNativeTarget "App-e-tizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8786901292C6A1F00C172C8 /* Debug */,
+				D8786902292C6A1F00C172C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8786903292C6B0200C172C8 /* XCRemoteSwiftPackageReference "amadeus-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amadeus4dev/amadeus-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8786904292C6B0200C172C8 /* Amadeus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8786903292C6B0200C172C8 /* XCRemoteSwiftPackageReference "amadeus-ios" */;
+			productName = Amadeus;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D87868EA292C6A1E00C172C8 /* Project object */;
+}
