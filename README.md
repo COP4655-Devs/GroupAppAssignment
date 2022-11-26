@@ -10,6 +10,11 @@
 ### Description
 App-e-tizer is a one click solution to help out find a place to eat. Using Google maps api, this app will search the nearby area and choose a random restaurant to display. 
 
+Milestone 3 - Begin Design and get data from a nearby restaurant search. 
+
+<img src="https://github.com/COP4655-Devs/GroupAppAssignment/blob/main/Milestone_3.gif" width=200><br>
+
+
 Milestone 2 - Configure Maps api and generate location search
 
 <img src="https://github.com/COP4655-Devs/GroupAppAssignment/blob/main/Milestone_2.gif" width=200><br>
