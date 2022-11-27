@@ -1,4 +1,4 @@
-# APP-E-TIZER
+# APPETIZER
 
 ## Table of Contents
 1. [Overview](#Overview)
