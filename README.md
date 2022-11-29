@@ -40,9 +40,9 @@ Milestone 1 - Create a projcet and bootable app
 * [x] Created icon and logo in start up page
 * [x] Configure Google Places API
 * [x] User sees a "Search" button
-* [ ] After searching, user sees a restaurant.
+* [x] After searching, user sees a restaurant.
 * [ ] Restaurant will show details
-* [ ] User can always see the search button to generate another search request
+* [x] User can always see the search button to generate another search request
 
 **Optional Nice-to-have Stories**
 
