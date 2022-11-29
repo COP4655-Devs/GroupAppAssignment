@@ -13,6 +13,7 @@ App-e-tizer is a one click solution to help out find a place to eat. Using Googl
 Milestone 3 - Design main page and retrieve data from a nearby restaurant search. 
 
 <img src="https://github.com/COP4655-Devs/GroupAppAssignment/blob/main/Milestone_3.gif" width=200><br>
+<img src="https://github.com/COP4655-Devs/GroupAppAssignment/blob/main/Milestone_3_GPS.gif" width=200><br>
 
 
 Milestone 2 - Configure maps api and generate location search
